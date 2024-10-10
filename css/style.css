@@ -11,15 +11,30 @@ header{
 
 nav{
     width: 1366px;
-    /*height: 50x;*/
+    height: 50px;
     margin: 0 auto;
     background-color: #F7CAC9;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    
 }
 
 nav a{
     color: #92A8D1;
     text-align: center;
+    text-decoration: none;
+    padding: 9px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    transition: .8s;
+}
+
+nav a:hover{
+    background-color: #f7cac9;
+    transform: scale(1.2);
 }
 
 section{
@@ -44,16 +59,16 @@ section{
 .izquierda{
     width: 550px;
     height: 1100px;
-    background-color: #E4B1F0;
+    background-color: #9139a5;
     float: left;
-    /*margin-left: 50px;*/
+    margin-left: 50px;
 }
 
 .textoizquierda{
     width: 500px;
     height: 900px;
-    background-color: #F7EFE5;
-    margin-left: 10px;
+    background-color: #96064e;
+
 }
 
 .derecha{
@@ -76,7 +91,7 @@ section{
 
 .footer{
     width: 1366px;
-    height: 320px;
+    height: 380px;
     background-color: #674188;
     float: left;
     /*position: sticky;*/
@@ -85,5 +100,6 @@ section{
 .textofooter{
     width: 1250px;
     height: 200px;
+    margin-left: 50px;
     background-color: #F7EFE5;
 }
