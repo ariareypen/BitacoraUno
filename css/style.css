@@ -12,13 +12,12 @@ header{
     width: 1366px;
     height: 200px;
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 0 auto; 
     text-align: center;
 }
 
 header img{
     position: relative;
-    /*top: 10px;*/
 }
 
 nav{
